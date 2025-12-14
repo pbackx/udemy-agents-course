@@ -176,7 +176,7 @@ class Account(BaseModel):
 
 # Example of usage:
 if __name__ == "__main__":
-    account = Account("John Doe")
+    account = Account(name="John Doe")
     account.deposit(1000)
     account.buy_shares("AAPL", 5)
     account.sell_shares("AAPL", 2)
